@@ -2,7 +2,10 @@
     "name": "eweb-odbc-api",
     "description": "Various flows for points creation over odbc or eweb-api",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@ais_automation/node-red-contrib-odbc": "2.0.0",
+        "node-red-contrib-looptimer2": "0.0.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_eweb-odbc-api.json",
