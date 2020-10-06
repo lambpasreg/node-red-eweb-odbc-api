@@ -1,0 +1,12 @@
+{
+    "name": "eweb-odbc-api",
+    "description": "Various flows for points creation over odbc or eweb-api",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_eweb-odbc-api.json",
+            "credentialsFile": "flows_eweb-odbc-api_cred.json"
+        }
+    }
+}
